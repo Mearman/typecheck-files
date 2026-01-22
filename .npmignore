@@ -1,0 +1,34 @@
+# Source
+src/
+test/
+
+# Build artifacts
+dist/.tsbuildinfo
+
+# Config
+*.config.js
+*.config.ts
+.eslintrc*
+.prettierrc*
+.releaserc.json
+commitlint.config.*
+
+# Development
+.husky/
+
+# Build artifacts (already covered by files field)
+tsconfig.json
+
+# CI/CI
+.github/
+
+# Misc
+.git/
+.gitignore
+.gitattributes
+.vscode/
+.idea/
+*.md
+!README.md
+!CHANGELOG.md
+!.npmignore
