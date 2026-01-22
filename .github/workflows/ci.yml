@@ -26,7 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Cache node_modules
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-node-${{ matrix.node-version }}-${{ hashFiles('package-lock.json') }}
@@ -55,7 +55,7 @@ jobs:
         run: npm run build
 
       - name: Cache build artifacts
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: dist
           key: ${{ runner.os }}-build-${{ matrix.node-version }}-${{ hashFiles('src/**', 'tsconfig.json') }}
@@ -83,7 +83,7 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Cache node_modules
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-node-22-${{ hashFiles('package-lock.json') }}
