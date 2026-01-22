@@ -31,7 +31,7 @@ updates:
       - "dependencies"
       - "npm"
     commit-message:
-      prefix: "chore(deps)"
+      prefix: "chore"
       include: "scope"
 
   # Dependencies for GitHub Actions
@@ -44,5 +44,5 @@ updates:
       - "dependencies"
       - "github-actions"
     commit-message:
-      prefix: "ci(deps)"
+      prefix: "ci"
       include: "scope"
