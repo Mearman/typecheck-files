@@ -1,3 +1,7 @@
+## <small>1.0.1 (2026-01-22)</small>
+
+* ci(github): add build step to release job ([22e7929](https://github.com/Mearman/typecheck-files/commit/22e7929))
+
 ## 1.0.0 (2026-01-22)
 
 * fix(git): use npx instead of pnpm in commit-msg hook ([4c4c662](https://github.com/Mearman/typecheck-files/commit/4c4c662))
