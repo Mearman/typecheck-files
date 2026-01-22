@@ -1,0 +1,48 @@
+version: 2
+updates:
+  # Dependencies for the npm package
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    groups:
+      # Group all eslint-related packages together
+      eslint:
+        patterns:
+          - "eslint*"
+          - "@eslint/*"
+          - "typescript-eslint"
+      # Group all semantic-release packages together
+      semantic-release:
+        patterns:
+          - "semantic-release"
+          - "@semantic-release/*"
+      # Group all testing packages together
+      testing:
+        patterns:
+          - "tsx"
+      # Group all commitlint packages together
+      commitlint:
+        patterns:
+          - "@commitlint/*"
+    labels:
+      - "dependencies"
+      - "npm"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+
+  # Dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "ci(deps)"
+      include: "scope"
