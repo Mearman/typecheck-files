@@ -1,3 +1,10 @@
+## <small>1.0.2 (2026-01-22)</small>
+
+* fix(dependabot): remove scope from prefix to prevent duplicate scopes ([85bc613](https://github.com/Mearman/typecheck-files/commit/85bc613))
+* ci(deps): bump actions/cache from 4 to 5 ([43134d0](https://github.com/Mearman/typecheck-files/commit/43134d0))
+* ci(deps): bump actions/checkout from 4 to 6 ([f297291](https://github.com/Mearman/typecheck-files/commit/f297291))
+* ci(deps): bump actions/setup-node from 4 to 6 ([babdc9d](https://github.com/Mearman/typecheck-files/commit/babdc9d))
+
 ## <small>1.0.1 (2026-01-22)</small>
 
 * ci(github): add build step to release job ([22e7929](https://github.com/Mearman/typecheck-files/commit/22e7929))
