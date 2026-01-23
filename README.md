@@ -82,3 +82,9 @@ For full coverage, run a complete typecheck in CI:
 ```bash
 tsc --noEmit
 ```
+
+## Related Packages
+
+**[tsc-files](https://github.com/gustavopch/tsc-files)** solves the same problem using a different approach: it generates a temporary tsconfig and spawns a separate `tsc` process. This package uses TypeScript's Program API directly, avoiding subprocess overhead and temporary files.
+
+If you're looking for similar tools for other parts of your workflow, check out **[test-related](https://www.npmjs.com/package/test-related)** for running only tests related to changed files.
