@@ -1,3 +1,7 @@
+## <small>1.0.3 (2026-01-23)</small>
+
+* docs: add Related Packages section ([042c3d0](https://github.com/Mearman/typecheck-files/commit/042c3d0))
+
 ## <small>1.0.2 (2026-01-22)</small>
 
 * fix(dependabot): remove scope from prefix to prevent duplicate scopes ([85bc613](https://github.com/Mearman/typecheck-files/commit/85bc613))
