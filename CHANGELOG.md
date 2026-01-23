@@ -1,3 +1,9 @@
+## <small>1.0.4 (2026-01-23)</small>
+
+* chore: add ESLint plugins and test-related dependency ([dbed2cc](https://github.com/Mearman/typecheck-files/commit/dbed2cc))
+* chore: update package lock ([fc1d42a](https://github.com/Mearman/typecheck-files/commit/fc1d42a))
+* refactor: normalize ESLint config and add markdown support ([5d14ab9](https://github.com/Mearman/typecheck-files/commit/5d14ab9))
+
 ## <small>1.0.3 (2026-01-23)</small>
 
 * docs: add Related Packages section ([042c3d0](https://github.com/Mearman/typecheck-files/commit/042c3d0))
